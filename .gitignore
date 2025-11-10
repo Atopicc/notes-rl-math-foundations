@@ -1,0 +1,99 @@
+# =============================================
+# .gitignore for RL Math Foundations Project
+# =============================================
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Virtual Environments ===
+# 虚拟环境 - 永远不要提交！
+venv/
+env/
+.venv/
+venv*/
+ENV/
+
+# === Jupyter Notebooks ===
+# Jupyter 检查点和临时文件
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Jupyter 配置文件（可选，如果你想要共享配置可以删除这行）
+.jupyter/
+
+# === IDE & Editors ===
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm/IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-*
+
+# === Operating System ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# === Logs & Outputs ===
+*.log
+logs/
+output/
+results/
+experiments/
+
+# === Configuration ===
+# 环境变量文件（包含敏感信息）
+.env
+.venv
+.env.local
+.env.production
+
+# === Documentation ===
+# 编译后的文档
+docs/_build/
+*.pdf
+*.aux
+*.log
+*.toc
